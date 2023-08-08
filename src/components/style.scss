@@ -95,14 +95,14 @@ button {
   .Board-row {
     display: flex;
     flex-direction: row;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #4e7c09;
     &:last-child {
       border-bottom: none;
     }
     .Square {
       width: 80px;
       height: 80px;
-      border-right: 2px solid #fff;
+      border-right: 2px solid #bc1313;
       font-size: 2.5rem;
       padding: 0;
       overflow: hidden;
