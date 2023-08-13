@@ -1,11 +1,9 @@
-
-import Square from './Square'
+import Square from './Square';
 const Board = ({square , handlesquareclick})=> {
   
     const rendersquare=position =>{
       return(
-        <Square 
-          value={square[position]} 
+        <Square value={square[position]} 
             onClick={ () =>  handlesquareclick(position) }/>
       );
     };

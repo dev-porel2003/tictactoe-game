@@ -69,10 +69,11 @@ button {
 
 .status-message {
 	margin-bottom: 30px;
-	font-size: 1.2rem;
+	font-size: 3rem;
 	font-weight: lighter;
 	span {
 	  font-weight: normal;
+    
 	}
 }
 
@@ -95,15 +96,15 @@ button {
   .Board-row {
     display: flex;
     flex-direction: row;
-    border-bottom: 2px solid #f7f8f5;
+    border-bottom: 7px solid #f0f1ec;
     &:last-child {
       border-bottom: none;
     }
     .Square {
-      width: 80px;
-      height: 80px;
-      border-right: 2px solid #f0eaea;
-      font-size: 2.5rem;
+      width: 180px;
+      height: 180px;
+      border-right: 7px solid #e03f3f;
+      font-size: 5rem;
       padding: 0;
       overflow: hidden;
       transition: all 0.2s;
