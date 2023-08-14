@@ -4,7 +4,7 @@ $blue: #4c43d4;
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: $blue;
+  background-color:grey;
   color: #fff;
   padding: 0;
   margin: 0;
@@ -27,11 +27,14 @@ button {
 }
 
 .text-green {
-  color: $green;
+  color:$green;
 }
 
 .text-orange {
   color: $orange;
+}
+.text-white{
+  color: white;
 }
 
 .history-wrapper {
@@ -71,6 +74,7 @@ button {
 	margin-bottom: 30px;
 	font-size: 3rem;
 	font-weight: lighter;
+  
 	span {
 	  font-weight: normal;
     
@@ -101,8 +105,8 @@ button {
       border-bottom: none;
     }
     .Square {
-      width: 150px;
-      height: 150px;
+      width: 130px;
+      height: 130px;
       border-right: 7px solid #e03f3f;
       font-size: 5rem;
       padding: 0;
