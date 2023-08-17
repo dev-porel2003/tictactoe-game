@@ -13,7 +13,7 @@ function App() {
 
   
 
-  const winner = calculateWinner(gamingBoard.square);
+  const {winner,winningSquare} = calculateWinner(gamingBoard.square);
   
   const handlesquareclick = clickedposition =>{
 
@@ -49,7 +49,7 @@ function App() {
 
   return  <div  className="app">
        <StatusMessage winner={winner} gamingBoard={gamingBoard} />
-       <Board square={gamingBoard.square} handlesquareclick={handlesquareclick}/>
+       <Board square={gamingBoard.square} handlesquareclick={handlesquareclick} winningSquare={winningSquare}/>
        <button type="button" onClick={onNewGameStart} className={
         `btn-reset ${winner ?'active':''}`
        }>
